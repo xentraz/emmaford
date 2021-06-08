@@ -1,0 +1,14 @@
+:root {
+  /* Colours */
+  --blue: #0e899f;
+  --blue-trs: #0a363d8e;
+  --dark-grey: #222222;
+  --light-grey: #eaeaea;
+  --white: #ffffff;
+
+  /* Text Styles */
+  --font: 'Oswald', sans-serif;
+
+  /* Borders */
+  --heading-border: 25px solid #0e899f;
+}

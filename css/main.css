@@ -1,0 +1,13 @@
+/* Style Sheets */
+
+@import './partials/header.css';
+/* @import './partials/footer.css'; */
+/* 
+@import './partials/index.css'; */
+
+/* General Styles */
+@import './styles.css';
+@import './partials/layout.css';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');

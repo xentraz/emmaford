@@ -1,14 +1,11 @@
 :root {
   /* Colours */
-  --blue: #265158;
-  --blue-trs: #0a363d8e;
+  --blue: #0e899f;
+  --blue-trs: #0e899f6c;
   --dark-grey: #222222;
   --light-grey: #b3b3b3;
   --white: #ffffff;
 
   /* Text Styles */
   --font: 'Oswald', sans-serif;
-
-  /* Borders */
-  --heading-border: 25px solid #0e899f;
 }

@@ -73,7 +73,7 @@
 .hobbies_cards {
   height: 25vh;
   width: 25vw;
-  border: 1px solid black;
+
   margin: 0vh 2vw 2vh 0vw;
 
   display: inline-flex;
@@ -82,6 +82,12 @@
   align-items: center;
 
   background-color: var(--dark-grey);
+}
+
+.hobbies_cards:hover {
+  box-shadow: 1px 1px 24px 1px rgba(34, 34, 34, 0.51);
+  -webkit-box-shadow: 1px 1px 24px 1px rgba(34, 34, 34, 0.51);
+  -moz-box-shadow: 1px 1px 24px 1px rgba(34, 34, 34, 0.51);
 }
 
 .hobbies_cards img {

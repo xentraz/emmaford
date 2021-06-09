@@ -33,7 +33,8 @@
   margin-top: 2rem;
 }
 
-.header_container .header_img {
+.header_container .header_img,
+.header_img_pf {
   grid-column: 2/4;
   grid-row: 1/1;
   z-index: 2;
@@ -42,10 +43,17 @@
   width: 100%;
   min-height: 100%;
 
-  background-image: url('../../img/IMG_8239.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.header_img {
+  background-image: url('../../img/IMG_8239.jpg');
+}
+
+.header_img_pf {
+  background-image: url('../../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg');
 }
 
 .header_container .header_info {

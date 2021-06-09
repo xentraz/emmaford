@@ -1,7 +1,7 @@
 /* Style Sheets */
 
 @import './partials/header.css';
-/* @import './partials/footer.css'; */
+@import './partials/footer.css';
 
 @import './partials/index.css';
 

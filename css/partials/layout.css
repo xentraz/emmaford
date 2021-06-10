@@ -30,7 +30,8 @@ h1,
 h2,
 h3,
 p,
-li {
+li,
+label {
   font-family: var(--font);
   letter-spacing: 3px;
   text-decoration: none;
@@ -65,7 +66,8 @@ h3 {
   color: var(--white);
 }
 
-p {
+p,
+label {
   font-size: 1.8rem;
   font-weight: 300;
   letter-spacing: 1px;

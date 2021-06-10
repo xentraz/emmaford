@@ -3,7 +3,10 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  background-color: var(--light-grey);
+
+  padding-bottom: 2vh;
 }
 
 .contact_heading {
@@ -14,4 +17,38 @@
   align-items: center;
 
   margin-left: 4vw;
+}
+
+.contact_form {
+  grid-row: 2/4;
+  grid-column: 1/2;
+
+  border-right: 2px solid var(--blue-trs);
+  margin-left: 4vw;
+}
+
+.contact_form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--dark-grey);
+}
+
+.contact_form p {
+  margin-bottom: 2vh;
+}
+
+.error {
+  font-size: 1.5rem;
+  color: var(--red);
+}
+
+.continue {
+  border: none;
+  background-color: transparent;
+
+  margin: 2vh 0vw !important;
+}
+
+.continue span {
+  color: var(--dark-grey);
 }

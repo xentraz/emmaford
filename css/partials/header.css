@@ -34,7 +34,8 @@
 }
 
 .header_container .header_img,
-.header_img_pf {
+.header_img_pf,
+.header_img_ct {
   grid-column: 2/4;
   grid-row: 1/1;
   z-index: 2;
@@ -54,6 +55,10 @@
 
 .header_img_pf {
   background-image: url('../../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg');
+}
+
+.header_img_ct {
+  background-image: url('../../img/pankaj-patel-OXkUz1Dp-4g-unsplash.jpg');
 }
 
 .header_container .header_info {

@@ -1,0 +1,17 @@
+.contact_me {
+  min-height: 50vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+.contact_heading {
+  grid-row: 1/1;
+
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-left: 4vw;
+}

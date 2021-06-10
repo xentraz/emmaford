@@ -31,7 +31,8 @@ h2,
 h3,
 p,
 li,
-label {
+label,
+input {
   font-family: var(--font);
   letter-spacing: 3px;
   text-decoration: none;
@@ -75,7 +76,8 @@ label {
   color: var(--dark-grey);
 }
 
-li {
+li,
+input {
   font-size: 1.5rem;
   font-weight: 200;
 }

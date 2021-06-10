@@ -117,7 +117,7 @@
 .experience_list {
   position: relative;
   max-width: 90vw;
-  margin: 4vh auto;
+  margin: 2vh auto;
 }
 
 .experience_list::after {
@@ -171,7 +171,7 @@
 }
 
 .experience_list ul {
-  margin: 1vh 0vw 0vh 0vw;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -187,12 +187,6 @@
 }
 
 /* Skills */
-
-.skills h3 {
-  /* text-decoration: underline;
-  text-decoration-color: var(--blue); */
-}
-
 .skills_lists {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -225,17 +219,25 @@
 .hard_skills {
   grid-column: 2/2;
 
-  margin-left: 2vw;
+  margin-left: 4vw;
 }
 
 .software {
   grid-column: 3/3;
 
-  margin-left: 2vw;
+  margin-left: 4vw;
   border-right: none;
 }
 
+.software_img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .software img {
-  height: 10vh;
-  margin: 2vh 2vw;
+  height: 8vh;
+  margin: 1vh 1vw;
 }

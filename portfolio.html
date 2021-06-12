@@ -12,13 +12,19 @@
 <body>
   <header>
     <div class="header_container">
-      <div class="header_logo">
-        <img src="/img/et_.png" alt="</et>">
-      </div>
-      <div class="header_menu">
-        <a href="/index.html" class="cta_underline header_links">Home</a>
-        <a href="/portfolio.html" class="cta_underline header_links active">Portfolio</a>
-        <a href="/contact.html" class="cta_underline header_links">Contact</a>
+      <div class="header_overlay" id="overlay">
+        <div class="header_logo">
+          <img src="/img/et_.png" alt="</et>">
+        </div>
+        <div class="header_menu">
+          <a href="/index.html" class="cta_underline header_links">Home</a>
+          <a href="/portfolio.html" class="cta_underline header_links active">Portfolio</a>
+          <a href="/contact.html" class="cta_underline header_links">Contact</a>
+        </div>
+        <a href="javascript:void(0)" class="close_btn blue" onclick="closeNav()">&times;</a>
+        <div class="nav_bars">
+          <span class="bars_click" onclick="openNav()">&#9776;</span>
+        </div>
       </div>
       <div class="header_img_pf"></div>
       <div class="header_info">
@@ -130,6 +136,7 @@
   <footer>
 
   </footer>
-  <script src="/js/modal.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 </html>

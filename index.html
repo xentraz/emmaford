@@ -12,13 +12,19 @@
 <body>
   <header>
     <div class="header_container">
-      <div class="header_logo">
-        <img src="/img/et_.png" alt="</et>">
-      </div>
-      <div class="header_menu">
-        <a href="/index.html" class="cta_underline header_links active">Home</a>
-        <a href="/portfolio.html" class="cta_underline header_links">Portfolio</a>
-        <a href="/contact.html" class="cta_underline header_links">Contact</a>
+      <div class="header_overlay" id="overlay">
+        <div class="header_logo">
+          <img src="/img/et_.png" alt="</et>">
+        </div>
+        <div class="header_menu">
+          <a href="/index.html" class="cta_underline header_links active">Home</a>
+          <a href="/portfolio.html" class="cta_underline header_links">Portfolio</a>
+          <a href="/contact.html" class="cta_underline header_links">Contact</a>
+        </div>
+        <a href="javascript:void(0)" class="close_btn blue" onclick="closeNav()">&times;</a>
+        <div class="nav_bars">
+          <span class="bars_click" onclick="openNav()">&#9776;</span>
+        </div>
       </div>
       <div class="header_img"></div>
       <div class="header_info">
@@ -43,34 +49,50 @@
         <img src="/img/IMG_8100.jpg" alt="NEEDED">
       </div>
     </div>
-    <div class="hobbies">
-      <div class="hobbies_heading">
-        <h2 class="static">Hobbies & Interests</h2>
+    <div class="skills">
+      <div class="skills_heading">
+        <h2 class="static">Skills</h2>
       </div>
-      <div class="hobbies_list">
-        <div class="hobbies_cards">
-          <img src="/img/headphones.svg" alt="Illustration icon of a headset with a speech bubble in the top right corner, the speech bobble contains a note.">
-          <p class="blue">Music</p>
+      <div class="skills_lists">
+        <div class="soft_skills">
+          <h3 class="grey">Soft Skills</h3>
+          <div class="soft_skills_list">
+            <ul>
+              <li class="grey"><i class="far fa-circle"></i> Communication</li>
+              <li class="grey"><i class="far fa-circle"></i> Critical Thinking</li>
+              <li class="grey"><i class="far fa-circle"></i> Creativity</li>
+              <li class="grey"><i class="far fa-circle"></i> Problem-Solving</li>
+              <li class="grey"><i class="far fa-circle"></i> Organization</li>
+              <li class="grey"><i class="far fa-circle"></i> Dependability</li>
+            </ul>
+          </div>
         </div>
-        <div class="hobbies_cards">
-          <img src="/img/game-controller.svg" alt="Illustration of a game controller">
-          <p class="blue">Gaming</p>
+        <div class="hard_skills">
+          <h3 class="grey">Hard Skills</h3>
+          <div class="hard_skills_list">
+            <ul>
+              <li class="grey"><i class="far fa-circle"></i> Programming</li>
+              <li class="grey"><i class="far fa-circle"></i> Wireframes</li>
+              <li class="grey"><i class="far fa-circle"></i> User interface design</li>
+              <li class="grey"><i class="far fa-circle"></i> Debugging</li>
+              <li class="grey"><i class="far fa-circle"></i> Bilingual / Multilingual</li>
+              <li class="grey"><i class="far fa-circle"></i> Sales</li>
+            </ul>
+          </div>
         </div>
-        <div class="hobbies_cards">
-          <img src="/img/coffee-maker.svg" alt="Illustration of a coffee maker">
-          <p class="blue">Coffee</p>
-        </div>
-        <div class="hobbies_cards">
-          <img src="/img/3d-glasses.svg" alt="Illutration of a pair of 3D glasses">
-          <p class="blue">Movies / TV shows</p>
-        </div>
-        <div class="hobbies_cards">
-          <img src="/img/camera.svg" alt="Illustration of a camera">
-          <p class="blue">Photography</p>
-        </div>
-        <div class="hobbies_cards">
-          <img src="/img/reading.svg" alt="Illustration of an open book">
-          <p class="blue">Reading</p>
+        <div class="software">
+          <h3 class="grey">Software</h3>
+          <div class="software_img">
+            <img src="/img/CSS3.png" alt="Image of the CSS3 logo, a blue circle with the number 3 witten in white in the middle">
+            <img src="/img/html.png" alt="Image of HTML logo, an orange circle with HTML witten in white over a 5 contained in a white crest">
+            <img src="/img/javascript.png" alt="Image of JavaScript logo, a white circle with a yellow crest containing the letters JS in white">
+            <img src="/img/photoshop.png" alt="Image of the Photoshop logo, a light darker blue with the letters Ps written inside in light blue, the circle has a light blue border">
+            <img src="/img/microsoft_office.png" alt="Image of the Microsoft Office logo, a white circle with an orange square in the middle">
+            <img src="/img/miro.png" alt="Image of the Miro logo, a yellow circle with three blue arrows pointing to the right">
+            <img src="/img/figma.png" alt="Image of the Figma logo, a white circle with a red oval on top of a purple cirlce on the left side, with a blue circle next to it. Below the purple circle is a green circle">
+            <img src="/img/twitch.png" alt="Image of the Twitch logo, a white circle with a purple speech bubble in the middle, the speech bubble has two purple lines in it">
+            <img src="/img/google_analytics.png" alt="Image of the Google Analytics logo, a white circle with an orange square in the middle, the squre is split in two by a graph line going upwards">
+          </div>
         </div>
       </div>
     </div>
@@ -130,50 +152,34 @@
         </div>
       </div>
     </div>
-    <div class="skills">
-      <div class="skills_heading">
-        <h2 class="static">Skills</h2>
+    <div class="hobbies">
+      <div class="hobbies_heading">
+        <h2 class="static">Hobbies & Interests</h2>
       </div>
-      <div class="skills_lists">
-        <div class="soft_skills">
-          <h3 class="grey">Soft Skills</h3>
-          <div class="soft_skills_list">
-            <ul>
-              <li class="grey"><i class="far fa-circle"></i> Communication</li>
-              <li class="grey"><i class="far fa-circle"></i> Critical Thinking</li>
-              <li class="grey"><i class="far fa-circle"></i> Creativity</li>
-              <li class="grey"><i class="far fa-circle"></i> Problem-Solving</li>
-              <li class="grey"><i class="far fa-circle"></i> Organization</li>
-              <li class="grey"><i class="far fa-circle"></i> Dependability</li>
-            </ul>
-          </div>
+      <div class="hobbies_list">
+        <div class="hobbies_cards">
+          <img src="/img/headphones.svg" alt="Illustration icon of a headset with a speech bubble in the top right corner, the speech bobble contains a note.">
+          <p class="blue">Music</p>
         </div>
-        <div class="hard_skills">
-          <h3 class="grey">Hard Skills</h3>
-          <div class="hard_skills_list">
-            <ul>
-              <li class="grey"><i class="far fa-circle"></i> Programming</li>
-              <li class="grey"><i class="far fa-circle"></i> Wireframes</li>
-              <li class="grey"><i class="far fa-circle"></i> User interface design</li>
-              <li class="grey"><i class="far fa-circle"></i> Debugging</li>
-              <li class="grey"><i class="far fa-circle"></i> Bilingual / Multilingual</li>
-              <li class="grey"><i class="far fa-circle"></i> Sales</li>
-            </ul>
-          </div>
+        <div class="hobbies_cards">
+          <img src="/img/game-controller.svg" alt="Illustration of a game controller">
+          <p class="blue">Gaming</p>
         </div>
-        <div class="software">
-          <h3 class="grey">Software</h3>
-          <div class="software_img">
-            <img src="/img/CSS3.png" alt="Image of the CSS3 logo, a blue circle with the number 3 witten in white in the middle">
-            <img src="/img/html.png" alt="Image of HTML logo, an orange circle with HTML witten in white over a 5 contained in a white crest">
-            <img src="/img/javascript.png" alt="Image of JavaScript logo, a white circle with a yellow crest containing the letters JS in white">
-            <img src="/img/photoshop.png" alt="Image of the Photoshop logo, a light darker blue with the letters Ps written inside in light blue, the circle has a light blue border">
-            <img src="/img/microsoft_office.png" alt="Image of the Microsoft Office logo, a white circle with an orange square in the middle">
-            <img src="/img/miro.png" alt="Image of the Miro logo, a yellow circle with three blue arrows pointing to the right">
-            <img src="/img/figma.png" alt="Image of the Figma logo, a white circle with a red oval on top of a purple cirlce on the left side, with a blue circle next to it. Below the purple circle is a green circle">
-            <img src="/img/twitch.png" alt="Image of the Twitch logo, a white circle with a purple speech bubble in the middle, the speech bubble has two purple lines in it">
-            <img src="/img/google_analytics.png" alt="Image of the Google Analytics logo, a white circle with an orange square in the middle, the squre is split in two by a graph line going upwards">
-          </div>
+        <div class="hobbies_cards">
+          <img src="/img/coffee-maker.svg" alt="Illustration of a coffee maker">
+          <p class="blue">Coffee</p>
+        </div>
+        <div class="hobbies_cards">
+          <img src="/img/3d-glasses.svg" alt="Illutration of a pair of 3D glasses">
+          <p class="blue">Movies / TV shows</p>
+        </div>
+        <div class="hobbies_cards">
+          <img src="/img/camera.svg" alt="Illustration of a camera">
+          <p class="blue">Photography</p>
+        </div>
+        <div class="hobbies_cards">
+          <img src="/img/reading.svg" alt="Illustration of an open book">
+          <p class="blue">Reading</p>
         </div>
       </div>
     </div>
@@ -181,5 +187,6 @@
   <footer>
 
   </footer>
+<script src="./js/header.js"></script>
 </body>
 </html>

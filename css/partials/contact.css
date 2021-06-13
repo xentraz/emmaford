@@ -131,6 +131,50 @@
   color: var(--blue);
 }
 
+/* Modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 15;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000059;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.7);
+}
+
+.modal_content {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  width: 80%;
+}
+
+.close {
+  color: var(--white);
+  float: right;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup_info {
+  height: 300px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* Responsive */
 @media screen and (max-width: 650px) {
   .contact_me {
     display: grid;

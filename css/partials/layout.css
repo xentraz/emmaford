@@ -173,6 +173,23 @@ input {
   display: none;
 }
 
+.show {
+  display: block;
+}
+
+.alert {
+  width: 100%;
+}
+
+.danger {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 20px;
+  transition: 2s;
+
+  text-align: center;
+}
+
 .nav_bg {
   background-color: rgba(0, 0, 0, 0.75);
 }

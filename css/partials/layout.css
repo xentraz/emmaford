@@ -133,7 +133,7 @@ input {
   font-size: 2rem;
   font-weight: 500;
 
-  width: 20vw;
+  min-width: 20vw;
   margin-top: 2vh;
 
   box-shadow: inset 0 -10rem 0 var(--blue-trs);
@@ -160,9 +160,12 @@ input {
 
 .blue {
   color: var(--blue);
-  font-size: 2.5rem;
-  font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.date {
+  text-align: left;
 }
 
 .grey {
@@ -175,4 +178,133 @@ input {
 
 .nav_bg {
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  li,
+  input {
+    font-size: 1.5rem;
+  }
+
+  .cta_links {
+    font-size: 4.5rem;
+  }
+
+  .static {
+    box-shadow: inset 0 -1.6rem 0 var(--blue-trs);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p,
+  label {
+    font-size: 1.4rem;
+  }
+
+  .cta_links {
+    font-size: 4rem;
+  }
+
+  .project_link {
+    font-size: 1.8rem;
+  }
+
+  .static {
+    box-shadow: inset 0 -1.2rem 0 var(--blue-trs);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta_links {
+    font-size: 3.5rem;
+  }
+
+  .static {
+    box-shadow: inset 0 -1rem 0 var(--blue-trs);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .cta_links {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  li,
+  input {
+    font-size: 1.3rem;
+  }
+
+  .cta_links {
+    font-size: 2.5rem;
+  }
+
+  .static {
+    box-shadow: inset 0 -1rem 0 var(--blue-trs);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cta_links {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
 }

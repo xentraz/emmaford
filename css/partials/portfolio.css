@@ -76,6 +76,10 @@
   flex-wrap: wrap;
 }
 
+.project_dsc .projeect_link {
+  width: 100%;
+}
+
 .r {
   background-color: var(--light-grey);
 }
@@ -132,4 +136,39 @@
 .modal_content {
   animation-name: zoom;
   animation-duration: 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+  .project_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .project_img .main_img {
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+    width: 90%;
+    margin: auto;
+
+    margin-bottom: 2vh;
+  }
+
+  .top {
+    grid-column: 1/1;
+    grid-row: 2/2;
+
+    width: 90%;
+    margin: auto;
+  }
+
+  .bottom {
+    grid-column: 1/1;
+    grid-row: 3/3;
+
+    width: 90%;
+    margin: auto;
+  }
 }

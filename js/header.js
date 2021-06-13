@@ -16,3 +16,6 @@ window.addEventListener('scroll', function(){
   }
 });
 
+window.onload = function() {
+  document.querySelector('#overlay').style.height = "0%";
+ }

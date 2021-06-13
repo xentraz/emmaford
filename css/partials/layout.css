@@ -153,9 +153,6 @@ input {
 
 .white {
   color: var(--white);
-  font-size: 2.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
 }
 
 .blue {

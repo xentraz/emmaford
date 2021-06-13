@@ -130,3 +130,36 @@
   padding: 0vh 2vw;
   color: var(--blue);
 }
+
+@media screen and (max-width: 650px) {
+  .contact_me {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr 1fr 1fr 1fr;
+  }
+
+  .contact_heading {
+    grid-row: 1/1;
+    grid-column: 1/1;
+  }
+
+  .contact_form {
+    grid-row: 2/2;
+    grid-column: 1/1;
+  }
+
+  .contact_details {
+    grid-column: 1/1;
+    grid-row: 3/3;
+  }
+
+  .contact_address {
+    grid-column: 1/1;
+    grid-row: 4/4;
+  }
+
+  .contact_socials {
+    grid-column: 1/1;
+    grid-row: 5/5;
+  }
+}

@@ -221,6 +221,10 @@ input {
     font-size: 2rem;
   }
 
+  h3 {
+    font-size: 1.8rem;
+  }
+
   p,
   label {
     font-size: 1.4rem;
@@ -248,6 +252,15 @@ input {
     font-size: 1.8rem;
   }
 
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p,
+  label {
+    font-size: 1.2rem;
+  }
+
   .cta_links {
     font-size: 3.5rem;
   }
@@ -260,6 +273,10 @@ input {
 @media screen and (max-width: 450px) {
   h1 {
     font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 
   .cta_links {
@@ -306,5 +323,9 @@ input {
 
   h2 {
     font-size: 1.8rem;
+  }
+
+  .static {
+    box-shadow: inset 0 -1rem 0 var(--blue-trs);
   }
 }

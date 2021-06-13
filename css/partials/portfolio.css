@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.project_dsc p span {
+  font-style: italic;
+}
+
 .project_img {
   justify-content: center;
   width: 95%;

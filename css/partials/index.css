@@ -19,6 +19,15 @@
   align-items: flex-start;
 }
 
+.about_me_info p span {
+  font-weight: 400;
+}
+
+.about_me_info p .italic {
+  font-weight: 200;
+  font-style: italic;
+}
+
 .about_me_img {
   grid-column: 2/2;
 
